@@ -3,9 +3,7 @@ var valor2 = document.getElementById('valor2');
 var botao = document.getElementById('botao');
 var resultado = document.getElementById('resultado');
 
-botao.addEventListener('click', function() {
-    multiplica();
-});
+botao.addEventListener('click', function() { multiplica(); } );
 
 function multiplica() {
     var numero1 = parseInt(valor1.value);
