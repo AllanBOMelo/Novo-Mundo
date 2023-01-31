@@ -9,5 +9,5 @@ function multiplica() {
     var numero1 = parseInt(valor1.value);
     var numero2 = parseInt(valor2.value);
     var multiplicacao = numero1 * numero2;
-    document.getElementById('resultado').value = multiplicacao;
+    document.getElementById('resultado').textContent = multiplicacao;
 }

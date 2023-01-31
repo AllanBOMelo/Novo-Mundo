@@ -4,7 +4,12 @@ body {
     padding: 0px !important;
     border: 0px !important;
     width: 100%;
-    background-image: url(../img/Design\ sem\ nome\ \(1\).png);
+    background-image: url(../img/fundo.png);
+
+}
+
+.fonte {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @media (max-width:2400px) {
@@ -17,18 +22,50 @@ body {
         display:block;
         margin-left: auto;
         margin-right: auto;
-        width:55%;
-        margin-top: 30px;
-        margin-bottom: 50px;
+        width:40%;
+    }
+
+    .menu {
+        background-color: #81AB4E;
+        width:40%;
+        height: 50px;
+        border-radius: 20px 20px 0px 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu ul {
+        padding: 0px;
+        width: fit-content;
+        margin:0 auto;
+
+    }
+
+    .menu ul li {
+        display:inline-block;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
+    }
+
+    .menu ul li a:hover {
+        color:#96C6DA;
     }
 
     .corpo {
-        width:60%;
+        width:40%;
+        border-radius: 0px 0px 20px 20px;
         display: block;
         margin-left: auto;
         margin-right: auto;
         background-color: #ebebeb;
-        opacity: 70%;
+        opacity: 100%;
     }
 
     .corpo h1 {
@@ -51,9 +88,17 @@ body {
         display: block;
         margin:0 auto;
     }
+
+    .resultado {
+        margin-bottom: 15px;
+    }
+
+    .fonte {
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
 
-@media (max-width:750px) {
+@media (max-width:800px) {
     .logo {
         width: 100%;
         height: auto;
@@ -63,19 +108,53 @@ body {
         display:block;
         margin-left: auto;
         margin-right: auto;
-        width: 500px;
+        width: 300px;
         height: auto;
-        margin-top: 30px;
-        margin-bottom: 50px;
     }
+
+    .menu {
+        background-color: #81AB4E;
+        width:100%;
+        height: 50px;
+        border-radius: 0px 0px 0px 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .menu ul {
+        padding: 0px;
+        width: fit-content;
+        margin:0 auto;
+
+    }
+
+    .menu ul li {
+        display:inline-block;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
+    }
+
+    .menu ul li a:hover {
+        color:#96C6DA;
+    }
+    
 
     .corpo {
         width:100%;
         display: block;
+        border-radius: 0px;
         margin-left: auto;
         margin-right: auto;
         background-color: #ebebeb;
-        opacity: 70%;
+        opacity: 100%;
+
     }
 
     .corpo h1 {
@@ -104,4 +183,6 @@ body {
         width: 150px;
         height: 20px;
     }
+
+    
 }

@@ -4,41 +4,51 @@
 <head>
     <title>Um novo mundo</title>
     <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <link rel="icon" href="./img/a3f38047972693e7b2af5bc66410ba76.gif" type="imagem/gif">
+    <link rel="icon" href="./img/ico.png" type="imagem/png">
 
-    <script src="./js/testescript.js"></script>
+    <!-- <script src="./js/testescript.js"></script> -->
+    
 </head>
 
 <body>
     <div class="logo">
-        <img src="./img/logo.png">
+        <img src="./img/banner.png">
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="">SOMA</a></li>
+            <li class="elementosmenu"><a href="">DIVISÃO</a></li>
+            <li class="elementosmenu"><a href="">MUTIPLICAÇÃO</a></li>
+        </ul>
     </div>
     <div class="corpo">
         <br>
-        <h1>Um novo começo</h1>
+        <h1 class="fonte" >Mutiplicação</h1>
 
         <!-- input valor 1-->
-        <label>Valor 1</label><br>
+        <label class="fonte" >Valor 1</label>
         <input 
         class="valor"
         type="text" 
         id="valor1" 
         placeholder="Insira um valor."
         >
-
+        <br>
         <!-- Input valor 2-->
-        <label>Valor 2</label><br>
+        <label class="fonte" >Valor 2</label>
         <input 
         class="valor"
         type="text" 
         id="valor2" 
         placeholder="Insira um valor."
-        > <br> 
-
+        > 
+        <br> 
+        <br>
         <!-- Button -->
         <button class="gerarresultado" id="botao">Gerar resultado</button>
         <br>
-        <input type="text" id="resultado" class="valor">
+        <h1 class="fonte" class="resultado" id="resultado"></h1>
+        <br>
         <script src="./js/soma.js"></script>
     </div>
     
