@@ -25,10 +25,10 @@
     </div>
     <div class="corpo">
         <br>
-        <h1 class="fonte" >Mutiplicação</h1>
+        <h1 class="fonte" >Soma e Subtração</h1>
 
         <!-- input valor 1-->
-        <label class="fonte" >Primeiro fator:</label>
+        <label class="fonte" >Primeiro valor:</label>
         <input 
         class="valor"
         type="text" 
@@ -37,7 +37,7 @@
         >
         <br>
         <!-- Input valor 2-->
-        <label class="fonte" >Segundo fator:</label>
+        <label class="fonte" >Segundo valor:</label>
         <input 
         class="valor"
         type="text" 
@@ -47,11 +47,17 @@
         <br> 
         <br>
         <!-- Button -->
-        <button class="gerarresultado" id="botao">Gerar resultado</button>
-        <br>
+        <div class="botoes">
+            <ul>
+                <li><button class="gerarresultado" id="botaosoma">Somar</button></li>
+                <li><button class="gerarresultado" id="botaosubtracao">Subtrair</button></li>
+            </ul>
+        </div>     
+        <br> 
+
         <h1 class="fonte" class="resultado" id="resultado"></h1>
         <br>
-        <script src="../js/multiplicacao.js"></script>
+        <script src="../js/soma.js"></script>
     </div>
     
     

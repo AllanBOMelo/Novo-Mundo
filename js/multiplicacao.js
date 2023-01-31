@@ -1,7 +1,6 @@
 var valor1 = document.getElementById('valor1');
 var valor2 = document.getElementById('valor2');
 var botao = document.getElementById('botao');
-var resultado = document.getElementById('resultado');
 
 botao.addEventListener('click', function() { multiplica(); } );
 
@@ -11,3 +10,4 @@ function multiplica() {
     var multiplicacao = numero1 * numero2;
     document.getElementById('resultado').textContent = multiplicacao;
 }
+
