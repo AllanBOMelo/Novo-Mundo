@@ -1,0 +1,259 @@
+body {
+    background-color: #fafafa;
+    margin: 0px !important;
+    padding: 0px !important;
+    border: 0px !important;
+    width: 100%;
+    background-image: url(../img/fundo.png);
+
+}
+
+.fonte {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #81AB4E;
+    margin-top: 50px;
+}
+
+.rodape ul {
+    padding: 0px;
+    width: fit-content;
+    margin:0 auto;
+}
+
+.rodape ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.rodape ul li p {
+    font-size: 15px;
+}
+
+@media (max-width:2400px) {
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo img {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width:40%;
+    }
+
+    .menu {
+        background-color: #81AB4E;
+        width:40%;
+        height: 50px;
+        border-radius: 20px 20px 0px 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu ul {
+        padding: 0px;
+        width: fit-content;
+        margin:0 auto;
+
+    }
+
+    .menu ul li {
+        display:inline-block;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
+        font-size: 1vw;
+    }
+
+    .menu ul li a:hover {
+        color:#96C6DA;
+    }
+
+    .corpo {
+        width:40%;
+        height: 339px;
+        border-radius: 0px 0px 20px 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ebebeb;
+        opacity: 100%;
+    }
+
+    .corpo h1 {
+        margin-top: 0px !important;
+        display: block;
+        text-align: center;
+    }
+
+    .corpo label {
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (max-width:1500px) {
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo img {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width:40%;
+    }
+
+    .menu {
+        background-color: #81AB4E;
+        width:40%;
+        height: 50px;
+        border-radius: 20px 20px 0px 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu ul {
+        padding: 0px;
+        width: fit-content;
+        margin:0 auto;
+
+    }
+
+    .menu ul li {
+        display:inline-block;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
+        font-size: 1.5vw;
+    }
+
+    .menu ul li a:hover {
+        color:#96C6DA;
+    }
+
+    .corpo {
+        width:40%;
+        height: 339px;
+        border-radius: 0px 0px 20px 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ebebeb;
+        opacity: 100%;
+    }
+
+    .corpo h1 {
+        margin-top: 0px !important;
+        display: block;
+        text-align: center;
+    }
+
+    .corpo label {
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (max-width:800px) {
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo img {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: auto;
+    }
+
+    .menu {
+        background-color: #81AB4E;
+        width:100%;
+        height: 50px;
+        border-radius: 0px 0px 0px 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .menu ul {
+        padding: 0px;
+        width: fit-content;
+        margin:0 auto;
+
+    }
+
+    .menu ul li {
+        display:inline-block;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .menu ul li a:hover {
+        color:#96C6DA;
+    }
+    
+
+    .corpo {
+        width:100%;
+        height: 420px;
+        display: block;
+        border-radius: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ebebeb;
+        opacity: 100%;
+
+    }
+
+    .corpo h1 {
+        margin-top: 0px !important;
+        display: block;
+        text-align: center;
+    }
+
+    .corpo label {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: block;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    
+
+    
+}

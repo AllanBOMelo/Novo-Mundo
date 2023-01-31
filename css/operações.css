@@ -1,0 +1,49 @@
+@media (max-width:2400px) {
+    .valor {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #999999;
+        border-radius: 5px;
+        height: 20px;
+        text-align: center;
+    }
+
+
+    .gerarresultado {
+        display: block;
+        margin:0 auto;
+        border: none;
+        background-color: #81AB4E;
+        border-radius: 3px;
+        width: 130px;
+        height: 30px;
+        color: #f8f8f8;
+    }
+
+}
+
+
+@media (max-width:800px) {
+    .valor {
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        height: 30px;
+        border: 1px solid #999999;
+        border-radius: 5px;
+    }
+
+    .gerarresultado {
+        display: block;
+        margin:0 auto;
+        width: 150px;
+        height: 20px;
+        border: none;
+        background-color: #81AB4E;
+        border-radius: 3px;
+        width: 180px;
+        height: 50px;
+        font-size: 20px;
+        color: #f8f8f8;
+    }
+}
