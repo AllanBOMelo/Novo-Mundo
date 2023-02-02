@@ -1,4 +1,2 @@
 # learning_JS
-Treino de Web Js
-
-Testando e criando um site generico com o intuito de aprimorar e adquirir conhecimentos em HTML, CSS e JS.
+Site Generico para realização de operações matematicas simples, criado com o intuito de desenvolver conhecimentos a cerca de Html, Css e Js
